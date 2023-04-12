@@ -1,0 +1,123 @@
+[
+    {
+        "id": "4066e51e-93ce-46f7-9806-9d2d712107a6",
+        "url": "https://spacelaunchnow.me/api/ll/2.1.0/launch/4066e51e-93ce-46f7-9806-9d2d712107a6/",
+        "launch_library_id": 1113,
+        "slug": "https://spacelaunchnow.me/launch/ariane-5-eca-juice-jupiter-icy-moons-explorer",
+        "name": "Ariane 5 ECA+ | JUICE (JUpiter ICy moons Explorer)",
+        "img_url": null,
+        "status": {
+            "id": 1,
+            "name": "Go"
+        },
+        "net": "2023-04-13T12:15:01Z",
+        "window_end": "2023-04-13T12:15:01Z",
+        "window_start": "2023-04-13T12:15:01Z",
+        "inhold": false,
+        "tbdtime": false,
+        "tbddate": false,
+        "probability": -1,
+        "holdreason": "",
+        "failreason": "",
+        "hashtag": null,
+        "rocket": {
+            "id": 2659,
+            "configuration": {
+                "id": 215,
+                "launch_library_id": 246,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/config/launcher/215/",
+                "name": "Ariane 5 ECA+",
+                "launch_service_provider": "ArianeGroup"
+            },
+            "launcher_stage": [],
+            "spacecraft_stage": null
+        },
+        "mission": {
+            "id": 660,
+            "launch_library_id": 830,
+            "name": "JUICE (JUpiter ICy moons Explorer)",
+            "description": "JUICE is an ESA mission to study some of the Jupiter's moons: Ganymede, Callisto and Europa.",
+            "type": "Planetary Science",
+            "orbit": "Heliocentric N/A",
+            "orbit_abbrev": "Helio-N/A"
+        },
+        "pad": {
+            "id": 77,
+            "agency_id": null,
+            "name": "Ariane Launch Area 3",
+            "info_url": null,
+            "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+            "map_url": "https://www.google.com/maps/?q=5.239,-52.769",
+            "latitude": "5.239",
+            "longitude": "-52.768",
+            "location": {
+                "id": 13,
+                "name": "Kourou, French Guiana",
+                "country_code": "GUF"
+            }
+        },
+        "image_url": null,
+        "infographic_url": null
+    },
+    {
+        "id": "d8bd2b25-129b-4ab7-95d9-fb8ad1fdd73e",
+        "url": "https://spacelaunchnow.me/api/ll/2.1.0/launch/d8bd2b25-129b-4ab7-95d9-fb8ad1fdd73e/",
+        "launch_library_id": null,
+        "slug": "https://spacelaunchnow.me/launch/falcon-9-block-5-transporter-7-dedicated-sso-rides",
+        "name": "Falcon 9 Block 5 | Transporter 7 (Dedicated SSO Rideshare)",
+        "img_url": null,
+        "status": {
+            "id": 1,
+            "name": "Go"
+        },
+        "net": "2023-04-14T06:47:00Z",
+        "window_end": "2023-04-14T08:11:00Z",
+        "window_start": "2023-04-14T06:10:00Z",
+        "inhold": false,
+        "tbdtime": false,
+        "tbddate": false,
+        "probability": null,
+        "holdreason": "",
+        "failreason": "",
+        "hashtag": null,
+        "rocket": {
+            "id": 7526,
+            "configuration": {
+                "id": 164,
+                "launch_library_id": 188,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/config/launcher/164/",
+                "name": "Falcon 9",
+                "launch_service_provider": "SpaceX"
+            },
+            "launcher_stage": [
+                {
+                    "type": "Core",
+                    "reused": true,
+                    "launcher_flight_number": 10,
+                    "launcher": {
+                        "id": 84,
+                        "url": "https://spacelaunchnow.me/api/ll/2.1.0/launcher/84/",
+                        "details": "Landed on OCISLY as of Oct 28, 2022",
+                        "flight_proven": true,
+                        "serial_number": "B1063",
+                        "status": "active",
+                        "previous_flights": 9,
+                        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/84_image_20201122121517.jpeg"
+                    },
+                    "landing": {
+                        "attempt": true,
+                        "success": null,
+                        "description": "B1063 will attempt to land back at the launch site after its tenth flight.",
+                        "location": {
+                            "name": "Landing Zone 4",
+                            "abbrev": "LZ-4",
+                            "description": "LZ at Vandenberg"
+                        },
+                        "type": {
+                            "name": "Return to Launch Site",
+                            "abbrev": "RTLS",
+                            "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                        }
+                    }
+                }
+            ]]]
